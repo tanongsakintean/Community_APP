@@ -1,0 +1,18 @@
+.show{
+    color: transparent;
+    position: absolute;
+    margin-top: -14px;
+    transition:all 1s ease-in-out;
+}
+ .content{
+    width: 3px;
+    transition: all .5s ease-in-out;
+}
+.head:hover .content {
+    width: 10rem;
+}
+.head:hover .show {
+    color: black;
+
+}
+
