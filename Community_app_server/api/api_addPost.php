@@ -10,6 +10,12 @@ if (isset($_REQUEST['action'])) {
         case 'add':
             $status = 0;
             $target_dir = "../images/";
+            
+            if (file_exists($target_dir)) {
+                } else {
+                    mkdir($target_dir);
+                }
+            
             foreach ($_FILES['user_img']['name'] as $key => $val) {
                 $imageFileType = pathinfo($val, PATHINFO_EXTENSION);
                 if ($imageFileType != "JPG" && $imageFileType != "jpg" && $imageFileType != "png" && $imageFileType != "jpeg" && $imageFileType != "gif") {
