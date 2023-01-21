@@ -18,6 +18,11 @@ if (isset($req)) {
 
                 if ($statement) {
                     $max_id = $conn->query("SELECT MAX(user_id) AS max_id FROM tb_user")->fetch_object()->max_id;
+                    if ($max_id == null)
+                    {
+                        $max_id = 1;
+                    }
+                    
                     mkdir("../images/" . $max_id);
                     mkdir("../images/" . $max_id . '/posts');
                     mkdir("../images/" . $max_id . '/profile');
