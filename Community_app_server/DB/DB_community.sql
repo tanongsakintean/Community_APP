@@ -160,7 +160,7 @@ ALTER TABLE `tb_likes`
 -- AUTO_INCREMENT for table `tb_post`
 --
 ALTER TABLE `tb_post`
-  MODIFY `post_id` int(11) NOT NULL AUTO_INCREMENT COMMENT 'ไอดีโพส', AUTO_INCREMENT=16;
+  MODIFY `post_id` int(11) NOT NULL AUTO_INCREMENT COMMENT 'ไอดีโพส', AUTO_INCREMENT=1;
 
 --
 -- AUTO_INCREMENT for table `tb_user`
