@@ -142,19 +142,19 @@ ALTER TABLE `tb_user`
 -- AUTO_INCREMENT for table `tb_comment`
 --
 ALTER TABLE `tb_comment`
-  MODIFY `com_id` int(11) NOT NULL AUTO_INCREMENT COMMENT 'ไอดีcomment', AUTO_INCREMENT=91;
+  MODIFY `com_id` int(11) NOT NULL AUTO_INCREMENT COMMENT 'ไอดีcomment', AUTO_INCREMENT=1;
 
 --
 -- AUTO_INCREMENT for table `tb_follow`
 --
 ALTER TABLE `tb_follow`
-  MODIFY `follow_id` int(11) NOT NULL AUTO_INCREMENT COMMENT 'id Follow', AUTO_INCREMENT=18;
+  MODIFY `follow_id` int(11) NOT NULL AUTO_INCREMENT COMMENT 'id Follow', AUTO_INCREMENT=1;
 
 --
 -- AUTO_INCREMENT for table `tb_likes`
 --
 ALTER TABLE `tb_likes`
-  MODIFY `like_id` int(11) NOT NULL AUTO_INCREMENT COMMENT 'ไอดีคนที่ไลค์', AUTO_INCREMENT=59;
+  MODIFY `like_id` int(11) NOT NULL AUTO_INCREMENT COMMENT 'ไอดีคนที่ไลค์', AUTO_INCREMENT=1;
 
 --
 -- AUTO_INCREMENT for table `tb_post`
@@ -166,7 +166,7 @@ ALTER TABLE `tb_post`
 -- AUTO_INCREMENT for table `tb_user`
 --
 ALTER TABLE `tb_user`
-  MODIFY `user_id` int(11) NOT NULL AUTO_INCREMENT COMMENT 'ไอดี', AUTO_INCREMENT=23;
+  MODIFY `user_id` int(11) NOT NULL AUTO_INCREMENT COMMENT 'ไอดี', AUTO_INCREMENT=1;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
